@@ -1,0 +1,130 @@
+[
+  {
+    "name": "Цена",
+    "question": "Какая стоимость автомобиля вас интересует?",
+    "answers": ["свыше 1 млн. руб.", "до 1 млн. руб."]
+  },
+  {
+    "name": "Предназначение автомобиля ценой более миллиона",
+    "criterionName": "Цена",
+    "criterionValue": "свыше 1 млн. руб.",
+    "question": "Для чего вам нужна машина?",
+    "answers": ["город", "дача","семья"]
+  },
+  {
+    "name": "Предназначение автомобиля ценой менее миллиона",
+    "criterionName": "Цена",
+    "criterionValue": "до 1 млн. руб.",
+    "question": "Для каких целей вам нужен автомобиль?",
+    "answers": ["дача", "город"]
+  },
+  {
+    "name": "Большой багажник",
+    "criterionName": "Предназначение автомобиля ценой более миллиона",
+    "criterionValue": "город",
+    "question": "Вам нужен большой багажник?",
+    "answers": ["да", "нет"]
+  },
+  {
+    "name": "Дорогой внедорожник",
+    "criterionName": "Предназначение автомобиля ценой более миллиона",
+    "criterionValue": "дача",
+    "question": "Вам нужен внедорожник?",
+    "answers": ["да", "нет"]
+  },
+  {
+    "name": "Большая мощность двигателя",
+    "criterionName": "Предназначение автомобиля ценой более миллиона",
+    "criterionValue": "семья",
+    "question": "Вам нужна большая мощность двигателя?",
+    "answers": ["да", "нет"]
+  },
+  {
+    "name": "Бюджетный внедорожник",
+    "criterionName": "Предназначение автомобиля ценой менее миллиона",
+    "criterionValue": "дача",
+    "question": "Вам нужен внедорожник?",
+    "answers": ["да", "нет"]
+  },
+  {
+    "name": "Рейлинги",
+    "criterionName": "Предназначение автомобиля ценой менее миллиона",
+    "criterionValue": "город",
+    "question": "Вам нужны рейлинги?",
+    "answers": ["да", "нет"]
+  },
+  {
+    "name": "ARKANA",
+    "criterionName": "Большой багажник",
+    "criterionValue": "да"
+  },
+  {
+    "name": "KAPTUR",
+    "criterionName": "Большой багажник",
+    "criterionValue": "нет"
+  },
+  {
+    "name": "ARKANA",
+    "criterionName": "Большая мощность двигателя",
+    "criterionValue": "да"
+  },
+  {
+    "name": "KAPTUR",
+    "criterionName": "Большая мощность двигателя",
+    "criterionValue": "нет"
+  },
+  {
+    "name": "Полный привод",
+    "criterionName": "Дорогой внедорожник",
+    "criterionValue": "да",
+    "question": "Вам нужен полный привод?",
+    "answers": ["да", "нет"]
+  },
+  {
+    "name": "KAPTUR",
+    "criterionName": "Дорогой внедорожник",
+    "criterionValue": "нет"
+  },
+  {
+    "name": "DUSTER",
+    "criterionName": "Полный привод",
+    "criterionValue": "да"
+  },
+  {
+    "name": "ARKANA",
+    "criterionName": "Полный привод",
+    "criterionValue": "нет"
+  },
+  {
+    "name": "DUSTER",
+    "criterionName": "Бюджетный внедорожник",
+    "criterionValue": "да"
+  },
+  {
+    "name": "Большой клиренс",
+    "criterionName": "Бюджетный внедорожник",
+    "criterionValue": "нет",
+    "question": "Вам нужен большой клиренс?",
+    "answers": ["да", "нет"]
+  },
+  {
+    "name": "LOGAN STEPWAY",
+    "criterionName": "Большой клиренс",
+    "criterionValue": "да"
+  },
+  {
+    "name": "LOGAN",
+    "criterionName": "Большой клиренс",
+    "criterionValue": "нет"
+  },
+  {
+    "name": "SANDERO STEPWAY",
+    "criterionName": "Рейлинги",
+    "criterionValue": "да"
+  },
+  {
+    "name": "SANDERO",
+    "criterionName": "Рейлинги",
+    "criterionValue": "нет"
+  }
+]
